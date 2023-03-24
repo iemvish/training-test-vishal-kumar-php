@@ -40,4 +40,14 @@ body{
   }
   .footer-heading{
     margin-bottom: 20px;
+    font-family: var(--secondary-font-family);
   }
+  .footer-bottom ul li {
+    color: var(--primary-color);
+    display: inline-flex;
+
+}
+
+footer .container .icon-list ul li a {
+  color: var(--primary-color);
+}

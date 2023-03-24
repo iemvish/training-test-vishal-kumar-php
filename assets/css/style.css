@@ -113,6 +113,11 @@ header .navbar {
     background-color: var(--primary-background-color);
 }
 
+.contact-form .container .form-data .heading{
+    font-family: var(--secondary-font-family);
+
+} 
+
 .contact-address ul li {
     list-style: none;
 }
@@ -141,6 +146,7 @@ header .navbar {
 .contact-form .container .contact-address .list-block .list-heading,
 .contact-form .container .contact-address .last-list-block .list-heading {
     padding: 12px 0;
+    font-family: var(--secondary-font-family);
 }
 
 
@@ -170,11 +176,6 @@ footer .container .icon-list ul li {
     display: inline;
     padding-right: 20px;
 }
-
-footer .container .icon-list ul li a {
-    color: var(--primary-color);
-}
-
 
 
 footer .container .middle-list ul li {
@@ -214,11 +215,7 @@ footer .container .last-list ul li a span i {
     padding-right: 6px;
 }
 
-.footer-bottom ul li {
-    color: var(--primary-color);
-    display: inline-flex;
 
-}
 
 .footer-bottom ul li:first-child {
     padding-right: 47px;

@@ -5,4 +5,39 @@
 body{
     font-family: var(--primary-font-family);
 }
+/* card CSS */
+.card-section{
+    padding:101px 0;
+    
+}
+/* second banner CSS */
+.second-banner{
+    background-color: var(--secondary-background-color);
+    position: relative;
+    text-align: center;
+    color: var(--primary-color);
+ 
+ }
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
+  /* contact CSS */
+  .contact-address ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* footer CSS */
+  footer{
+    background-color: var(--primary-background-light-color);
+  }
+  .footer-bottom{
+    background-color: var(--primary-background-dark-color);
+  }
+  .footer-heading{
+    margin-bottom: 20px;
+  }

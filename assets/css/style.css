@@ -21,55 +21,46 @@ header .navbar {
     height: max-content;
     width: 100%;
 }
-
-
-
-
+.banner-content{
+    display: flex;
+    align-items: center;    
+}
 .banner a {
     text-decoration: none;
 }
 
-.carousel-control-next-icon,
+
 .carousel-control-prev-icon {
     margin-right: 100px;
+}
+.carousel-control-next-icon{
+    margin-left: 100px;
 }
 
 /* card CSS */
 
-.card-section .container .card {
-    border-radius: 15px;
-    border: none;
-    padding: 28px 0;
-}
+
 .card-section .card .card-body h5,
 .second-banner .centered h2  {
     font-family: var(--secondary-font-family);
 }
 .card-section .card .card-image {
-    border: 2px solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    position: relative;
-    color: var(--seconday-color);
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+        margin: auto;
+        padding: 20px;
+        border-radius: 50%;
 }
 
 .card-section .card .card-body {
     text-align: center;
-    height: 150px;
 }
 
 .card-section .card .card-body h5 {
     text-transform: capitalize;
 }
 
-.card-section .card .card-image img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
 /* second banner CSS */
@@ -168,6 +159,11 @@ header .navbar {
 
 .contact-form .container .contact-address .list-block ul li {
     line-height: 2;
+}
+
+
+.my-dropdown-toggle::after {
+    content: none;
 }
 
 /* footer CSS */
